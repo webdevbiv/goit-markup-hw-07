@@ -1,0 +1,110 @@
+.border {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  font-family: $fontfamily-logo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_part1 {
+  color: $logoColor-first;
+  align-items: center;
+}
+
+.logo_part2 {
+  color: $logoColor-second;
+}
+
+.site-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-nav__link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  color: $textColor-main;
+  display: inline-flex;
+  height: 80px;
+  align-items: center;
+
+  transition: color $transition-time $transition-function;
+  &:hover,
+  &:focus {
+    color: $textColor-accent;
+    transition: color $transition-time $transition-function;
+  }
+}
+
+.site-nav__item {
+  display: inline-flex;
+  height: 80px;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address-header {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.address-header__item {
+  display: flex;
+}
+
+.address-header__icon {
+  margin-right: 10px;
+  align-items: center;
+  fill: $iconsColor-header;
+
+  transition: fill $transition-time $transition-function;
+
+  &:hover,
+  &:focus {
+    fill: $iconsColor-accent;
+    transition: fill $transition-time $transition-function;
+  }
+  .address-header__link:hover &,
+  .address-header__link:focus & {
+    fill: $iconsColor-accent;
+    transition: fill $transition-time $transition-function;
+  }
+}
+
+.address-header__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $textColor-secondary;
+
+  transition: color $transition-time $transition-function;
+  &:hover,
+  &:focus {
+    color: $textColor-accent;
+    transition: color $transition-time $transition-function;
+  }
+}
+
+.ddress-header__item:not(:first-child) {
+  margin-left: 30px;
+}
