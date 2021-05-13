@@ -32,6 +32,16 @@
   align-items: center;
 }
 
+.site-nav__item {
+  position: relative;
+  display: inline-flex;
+  height: 80px;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav__link {
   text-decoration: none;
   font-weight: 500;
@@ -49,13 +59,17 @@
   }
 }
 
-.site-nav__item {
-  display: inline-flex;
-  height: 80px;
-}
-
-.site-nav__item:not(:last-child) {
-  margin-right: 50px;
+.site-nav__link-active {
+  color: $textColor-accent;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: 0px;
+    background-color: #2196f3;
+  }
 }
 
 .address-header {
@@ -98,6 +112,7 @@
   color: $textColor-secondary;
 
   transition: color $transition-time $transition-function;
+
   &:hover,
   &:focus {
     color: $textColor-accent;
