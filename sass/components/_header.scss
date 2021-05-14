@@ -120,6 +120,6 @@
   }
 }
 
-.ddress-header__item:not(:first-child) {
-  margin-left: 30px;
+.address-header__item:not(:last-child) {
+  margin-right: $grid-item-margin;
 }

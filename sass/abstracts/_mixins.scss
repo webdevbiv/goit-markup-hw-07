@@ -1,0 +1,5 @@
+@mixin grid-item($colums) {
+  flex-basis: calc((100% / #{$colums}) - #{$grid-item-margin});
+  margin-left: $grid-item-margin;
+  margin-top: $grid-item-margin;
+}
