@@ -36,14 +36,11 @@
   position: relative;
   display: inline-flex;
   height: 80px;
+
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
-
-// .site-nav__item:not(:last-child) {
-//   margin-right: 50px;
-// }
 
 .site-nav__link {
   text-decoration: none;
@@ -54,6 +51,7 @@
   height: 80px;
   align-items: center;
   @include transition-normal(color);
+
   &:hover,
   &:focus {
     color: $text-color-accent;
@@ -63,6 +61,7 @@
 
 .site-nav__link-active {
   color: $text-color-accent;
+
   &::after {
     position: absolute;
     content: "";
@@ -82,6 +81,7 @@
 
 .address-header__item {
   display: flex;
+
   &:not(:last-child) {
     margin-right: $grid-item-margin;
   }
@@ -123,7 +123,3 @@
     @include transition-normal(color);
   }
 }
-
-// .address-header__item:not(:last-child) {
-//   margin-right: $grid-item-margin;
-// }
