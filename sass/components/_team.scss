@@ -58,12 +58,12 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  @include transition-normal(background);
 
-  transition: background $transition-time $transition-function;
   &:hover,
   &:focus {
     background: $icons-color-accent;
-    transition: background $transition-time $transition-function;
+    @include transition-normal(background);
   }
 }
 
@@ -71,11 +71,11 @@
   width: 20px;
   height: 20px;
   fill: $icons-color-background;
-  transition: fill $transition-time $transition-function;
+  @include transition-normal(fill);
 
   .social__link:hover &,
   .social__link:focus & {
     fill: $icons-color-darkbg;
-    transition: fill $transition-time $transition-function;
+    @include transition-normal(fill);
   }
 }

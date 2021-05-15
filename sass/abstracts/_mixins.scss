@@ -3,3 +3,7 @@
   margin-left: $grid-item-margin;
   margin-top: $grid-item-margin;
 }
+
+@mixin transition-normal($element) {
+  transition: $element $transition-time $transition-function;
+}

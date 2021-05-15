@@ -40,10 +40,12 @@
   color: $text-color-darkbg;
   text-decoration: none;
   font-style: normal;
-  transition: color $transition-time $transition-function;
+  @include transition-normal(color);
+
   &:hover,
   &:focus {
     color: $text-color-accent;
+    @include transition-normal(color);
   }
 }
 
@@ -73,7 +75,7 @@
   width: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color $transition-time $transition-function;
+  @include transition-normal(background-color);
   &:hover,
   &:focus {
     background-color: $text-color-accent;
@@ -113,14 +115,14 @@
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-  transition: border $transition-time $transition-function;
+  @include transition-normal(border);
 
   &:hover,
   &:focus {
     border: 1px solid $text-color-accent;
     cursor: pointer;
     outline: none;
-    transition: border $transition-time $transition-function;
+    @include transition-normal(border);
   }
 }
 
@@ -131,7 +133,7 @@
 .subscribe-button__style {
   padding: 10px 29px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background $transition-time $transition-function;
+  @include transition-normal(background);
 }
 
 .subscribe-button__text {

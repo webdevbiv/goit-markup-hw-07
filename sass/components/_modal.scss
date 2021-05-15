@@ -32,9 +32,7 @@
 }
 
 .modal-window__button-close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -55,7 +53,7 @@
   width: 11px;
   height: 11px;
   fill: rgba(0, 0, 0, 1);
-  transition: fill $transition-time $transition-function;
+  @include transition-normal(fill);
 
   .modal-window__button-close:hover &,
   .modal-window__button-close:focus & {
@@ -100,7 +98,7 @@
   line-height: 1.17px;
   letter-spacing: 0.01em;
   padding: 12px 0 12px 42px;
-  transition: border $transition-time $transition-function;
+  @include transition-normal(border);
 
   &:hover,
   &:focus {
@@ -144,7 +142,7 @@
   letter-spacing: 0.01em;
   border-radius: 4px;
   margin-bottom: 20px;
-  transition: border $transition-time $transition-function;
+  @include transition-normal(border);
 
   &::placeholder {
     color: rgba(117, 117, 117, 0.5);
