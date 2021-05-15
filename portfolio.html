@@ -60,69 +60,78 @@
     </header>
 
     <main>
-        <section class="section portfolio">
+        <section class="portfolio">
             <div class="container">
-                <h1 class="visually-hidden">Фильтр Работ</h1>
-                <ul class="list btn-list">
-                    <li class="item"><button class="por-btn" type="button">Все</button></li>
-                    <li class="item"><button class="por-btn" type="button">Веб-сайты</button></li>
-                    <li class="item"><button class="por-btn" type="button">Приложения</button></li>
-                    <li class="item"><button class="por-btn" type="button">Дизайн</button></li>
-                    <li class="item"><button class="por-btn" type="button">Маркетинг</button></li>
+                <h1 class="portfolio__title visually-hidden">Фильтр Работ</h1>
+                <ul class="list portfolio-filter__list">
+                    <li class="portfolio-filter__item"><button class="portfolio-filter__button"
+                            type="button">Все</button></li>
+                    <li class="portfolio-filter__item"><button class="portfolio-filter__button"
+                            type="button">Веб-сайты</button></li>
+                    <li class="portfolio-filter__item"><button class="portfolio-filter__button"
+                            type="button">Приложения</button></li>
+                    <li class="portfolio-filter__item"><button class="portfolio-filter__button"
+                            type="button">Дизайн</button></li>
+                    <li class="portfolio-filter__item"><button class="portfolio-filter__button"
+                            type="button">Маркетинг</button></li>
                 </ul>
 
-                <ul class="list por-list1">
-                    <li class="item shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
-                            <div class="shadow">
-                                <div class="img-des">
+                <!-- _portfolio scss  -->
+                <ul class="list portfolio-card__list">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
+                            <div class="">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-01.jpg" alt="Веб-сайт: Технокряк">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Технокряк</h2>
-                                    <p class="por-list1-text">Веб-сайт</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Технокряк</h2>
+                                    <p class="portfolio-card__project__type">Веб-сайт</p>
                                 </div>
 
                             </div>
                         </a>
                     </li>
 
-                    <li class="item shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
-                            <div class="shadow">
-                                <div class="img-des">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
+                            <div class="">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-02.jpg"
                                         alt="Дизайн: Постер New Orlean vs Golden Star">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Постер New Orlean vs Golden Star</h2>
-                                    <p class="por-list1-text">Дизайн</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Постер New Orlean vs Golden Star</h2>
+                                    <p class="portfolio-card__project__type">Дизайн</p>
                                 </div>
 
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow ">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-03.jpg" alt="Приложение: Ресторан Seafood">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
@@ -130,130 +139,136 @@
 
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Ресторан Seafood</h2>
-                                    <p class="por-list1-text">Приложение</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Ресторан Seafood</h2>
+                                    <p class="portfolio-card__project__type">Приложение</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-04.jpg" alt="Маркетинг: Проект Prime">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Проект Prime</h2>
-                                    <p class="por-list1-text">Маркетинг</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Проект Prime</h2>
+                                    <p class="portfolio-card__project__type">Маркетинг</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-05.jpg" alt="Приложение: Проект Boxes">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Проект Boxes</h2>
-                                    <p class="por-list1-text">Приложение</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Проект Boxes</h2>
+                                    <p class="portfolio-card__project__type">Приложение</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-06.jpg" alt="Веб-сайт: Inspiration has no Borders">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Inspiration has no Borders</h2>
-                                    <p class="por-list1-text">Веб-сайт</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Inspiration has no Borders</h2>
+                                    <p class="portfolio-card__project__type">Веб-сайт</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-07.jpg" alt="Дизайн: Издание Limited Edition">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Издание Limited Edition</h2>
-                                    <p class="por-list1-text">Дизайн</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Издание Limited Edition</h2>
+                                    <p class="portfolio-card__project__type">Дизайн</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
+                    <li class="portfolio-card__item">
 
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-08.jpg" alt="Маркетинг: Проект LAB">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Проект LAB</h2>
-                                    <p class="por-list1-text">Маркетинг</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Проект LAB</h2>
+                                    <p class="portfolio-card__project__type">Маркетинг</p>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="item  shadow">
-                        <a href="" class="por-links" target="_blank" rel="noopener noreferrer">
+                    <li class="portfolio-card__item">
+                        <a href="" class="portfolio-card__link" target="_blank" rel="noopener noreferrer">
                             <div class="fuckthisshadow">
-                                <div class="img-des">
+                                <div class="portfolio-card__overlay--relative">
                                     <img src="./images/portfolio/img-09.jpg" alt="Приложение: Growing Business">
-                                    <div class="des-overlay">
-                                        <p class="des-overlay-text">Технокряк это современная площадка распространения
+                                    <div class="portfolio-card__overlay">
+                                        <p class="portfolio-card__overlay__text">Технокряк это современная площадка
+                                            распространения
                                             коронавируса.
                                             Компании используют эту платформу для цифрового
                                             шпионажа и атак на защищённые сервера конкурентов.</p>
                                     </div>
                                 </div>
 
-                                <div class="description">
-                                    <h2 class="por-list1-title">Growing Business</h2>
-                                    <p class="por-list1-text">Приложение</p>
+                                <div class="portfolio-card__project">
+                                    <h2 class="portfolio-card__project__name">Growing Business</h2>
+                                    <p class="portfolio-card__project__type">Приложение</p>
                                 </div>
                             </div>
                         </a>
@@ -263,58 +278,61 @@
         </section>
     </main>
 
-    <footer class="dark-bg footer-info">
+    <footer class="footer">
         <div class="container">
-            <div class="bot-row">
-                <div class="address-bot">
-                    <a class="logo-bot" href="./index.html"><span class="l1">Web</span><span class="l3">Studio</span>
+            <div class="footer__row">
+                <div class="footer__address">
+                    <a class="footer__logo" href="./index.html"><span class="footer__logo--blue">Web</span><span
+                            class="footer__logo--white">Studio</span>
                     </a>
                     <address>
-                        <ul class="list address-list">
-                            <li class="item">
-                                <a class="address" href="https://goo.gl/maps/Poxogy9ZwxsRHQay8" target="_blank">г. Киев,
-                                    пр-т
-                                    Леси
-                                    Украинки,
-                                    26&nbsp;&nbsp;&nbsp;</a>
+                        <ul class="address__list list">
+                            <li class="address__item">
+                                <a class="address__link" href="https://goo.gl/maps/Poxogy9ZwxsRHQay8" target="_blank">г.
+                                    Киев,
+                                    пр-т Леси
+                                    Украинки, 26&nbsp;&nbsp;&nbsp;</a>
                             </li>
-                            <li class="item">
-                                <a class="links-bot" href="mailto:info@devstudio.com"
+                            <li class="address__item">
+                                <a class="address__link address__link--grey" href="mailto:info@devstudio.com"
                                     target="_blank">info@devstudio.com</a>
                             </li>
-                            <li class="item">
-                                <a class="links-bot" href="tel:+380961111111" target="_blank">+38 096 111 11 11</a>
+                            <li class="address__item">
+                                <a class="address__link address__link--grey" href="tel:+380961111111"
+                                    target="_blank">+38 096
+                                    111 11
+                                    11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
-                <div class="sm-bot">
-                    <h3 class="sm-bot-title">присоединяйтесь</h3>
-                    <ul class="list sm-bot-list">
-                        <li class="item">
-                            <a href="" class="sm-bot-links" target="_blank" rel="noopener noreferrer">
-                                <svg class="sm-bot-svg">
+                <div class="footer__social">
+                    <h3 class="footer__social__title">присоединяйтесь</h3>
+                    <ul class="list footer__social__list">
+                        <li class="footer__social__item">
+                            <a href="" class="footer__social__link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer__social__icon">
                                     <use href="./images/icons.svg#sm-01"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="" class="sm-bot-links" target="_blank" rel="noopener noreferrer">
-                                <svg class="sm-bot-svg">
+                        <li class="footer__social__item">
+                            <a href="" class="footer__social__link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer__social__icon">
                                     <use href="./images/icons.svg#sm-02"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="" class="sm-bot-links" target="_blank" rel="noopener noreferrer">
-                                <svg class="sm-bot-svg">
+                        <li class="footer__social__item">
+                            <a href="" class="footer__social__link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer__social__icon">
                                     <use href="./images/icons.svg#sm-03"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="" class="sm-bot-links" target="_blank" rel="noopener noreferrer">
-                                <svg class="sm-bot-svg">
+                        <li class="footer__social__item">
+                            <a href="" class="footer__social__link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer__social__icon">
                                     <use href="./images/icons.svg#sm-04"></use>
                                 </svg>
                             </a>
@@ -322,19 +340,20 @@
                     </ul>
                 </div>
                 <div class="subscribe-email">
-                    <label for="sub-email" class="bot-sub-email-label">Подпишитесь на рассылку
+                    <label for="sub-email" class="subscribe-email__label">Подпишитесь на рассылку
                     </label>
-                    <input type="text" name="sub-email" id="sub-email" class="bot-sub-email-box" placeholder="E-mail">
+                    <input type="text" name="sub-email" id="sub-email" class="subscribe-email__input"
+                        placeholder="E-mail">
                 </div>
-                <div class="bot-telegram-btn">
-                    <button type="submit" class="sub-telegram-btn">
-                        <div class="sub-telegram-btn-text">Подписаться
+                <div class="subscribe-button ">
+                    <button type="submit" class="subscribe-button__style button">
+                        <div class="subscribe-button__text">Подписаться
                         </div>
-                        <svg class="bot-telegram-svg">
+                        <svg class="subscribe-button__icon">
                             <use href="./images/icons.svg#icon-sub"></use>
                         </svg>
-
                     </button>
+
                 </div>
             </div>
         </div>

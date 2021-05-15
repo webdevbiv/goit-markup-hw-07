@@ -435,7 +435,7 @@
           <input type="text" name="sub-email" id="sub-email" class="subscribe-email__input" placeholder="E-mail">
         </div>
         <div class="subscribe-button ">
-          <button type="submit" class="subscribe-button__button button">
+          <button type="submit" class="subscribe-button__style button">
             <div class="subscribe-button__text">Подписаться
             </div>
             <svg class="subscribe-button__icon">
@@ -446,78 +446,73 @@
         </div>
       </div>
     </div>
-    <!-- 
 
-    <div class="modal-window is-hidden" data-modal>
-      <div class="modal">
-        <div class="modal-container">
-          <button data-modal-close class="btn-modal-close">
-            <svg class="modal-svg ">
+    <div class="modal-window__backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <div class="modal-window__container">
+          <button data-modal-close class="modal-window__button-close">
+            <svg class="modal-window__button-close__icon">
               <use href="./images/icons.svg#close"></use>
             </svg>
           </button>
           <div>
-            <h2 class="modal-titile">Оставьте свои данные, мы вам перезвоним</h2>
 
-
+            <h2 class="modal-window__title">Оставьте свои данные, мы вам перезвоним</h2>
             <form class="modal-form">
-              <div class="modal-form-name mf-margin">
-                <label for="mf-name" class="mf-label">Имя</label>
-                <div class=" mf-element">
-                  <svg class="mf-svg">
+              <div class="modal-form__container">
+                <label for="mf-name" class="modal-form__label">Имя</label>
+                <div class="modal-form__item">
+                  <svg class="modal-form__icon">
                     <use href="./images/icons.svg#icon-modal-01"></use>
                   </svg>
-                  <input type="text" name="name" id="mf-name"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point" autofocus>
+                  <input type="text" name="name" id="mf-name" class="modal-form_input" autofocus>
                 </div>
               </div>
 
-              <div class="modal-form-tel mf-margin">
-                <label for="mf-tel" class="mf-label">Телефон</label>
-                <div class="mf-element">
-                  <svg class="mf-svg">
+              <div class="modal-form__container">
+                <label for="mf-tel" class="modal-form__label">Телефон</label>
+                <div class="modal-form__item">
+                  <svg class="modal-form__icon">
                     <use href="./images/icons.svg#icon-modal-02"></use>
                   </svg>
-                  <input type="tel" name="tel" id="mf-tel"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point">
+                  <input type="tel" name="tel" id="mf-tel" class="modal-form_input">
                 </div>
               </div>
 
-              <div class="modal-form-email mf-margin">
-                <label for="mf-email" class="mf-label">Почта</label>
-                <div class="mf-element">
-                  <svg class="mf-svg">
+              <div class="modal-form__container">
+                <label for="mf-email" class="modal-form__label">Почта</label>
+                <div class="modal-form__item">
+                  <svg class="modal-form__icon">
                     <use href="./images/icons.svg#icon-modal-03"></use>
                   </svg>
-                  <input type="email" name="email" id="mf-email"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point">
+                  <input type="email" name="email" id="mf-email" class="modal-form_input">
                 </div>
               </div>
 
-              <div class="modal-form-comment mf-element mf-margin-comment">
-                <label for="mf-comment" class="mf-label">Комментарий</label>
-                <textarea name="comment" id="mf-comment" class="mf-textarea mf-input-point" rows="10"
+              <div class="modal-form-comment">
+                <label for="mf-comment" class="modal-form-comment__label">Комментарий</label>
+                <textarea name="comment" id="mf-comment" class="modal-form-comment__textarea" rows="10"
                   placeholder="Введите текст"></textarea>
               </div>
 
-              <div class="mf-checkbox">
+              <div class="moadal-form-checkbox">
                 <input type="checkbox" id="mf-checkbox" name="checkbox-policy"
-                  class="visually-hidden check-box-condition" />
-                <label for="mf-checkbox" class="mf-checkbox-label">
+                  class="visually-hidden moadal-form-checkbox__condition" />
+                <label for="mf-checkbox" class="moadal-form-checkbox__label">
                   Соглашаюсь с рассылкой и
-                  принимаю&nbsp;<a href="" target="" class="mf-policy">Условия договора</a>
+                  принимаю&nbsp;<a href="" target="" class="moadal-form-checkbox__policy">Условия договора</a>
                 </label>
               </div>
 
-              <button class="mf-button-send" type="submit">Отправить</button>
+              <button class="button modal-form-button" type="submit">Отправить</button>
 
             </form>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </footer>
-  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>

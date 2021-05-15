@@ -11,4 +11,11 @@
   color: $text-color-darkbg;
   background-color: $btn-background;
   cursor: pointer;
+  transition: background-color $transition-time $transition-function;
+
+  &:hover,
+  &:focus {
+    transition: background-color $transition-time $transition-function;
+    background-color: $btn-accent;
+  }
 }

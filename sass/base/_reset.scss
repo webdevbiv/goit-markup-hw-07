@@ -128,8 +128,29 @@ img {
 html {
   box-sizing: border-box;
 }
+
 .list {
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 500ms var(--btn-sh-function),
+    visibility 500ms var(--btn-sh-function);
 }
