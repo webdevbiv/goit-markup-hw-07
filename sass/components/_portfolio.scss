@@ -9,7 +9,7 @@
 .portfolio-card__link {
   text-decoration: none;
   color: inherit;
-  transition: box-shadow $transition-time $transition-function;
+  @include transition-normal(box-shadow);
 
   &:hover,
   &:focus {
@@ -38,8 +38,8 @@
   background-color: rgba(33, 150, 243, 0.9);
   letter-spacing: 0.03em;
   transform: translateY(75%);
-  transition: opacity $transition-time $transition-function,
-    transform $transition-time $transition-function;
+  @include transition-normal(opacity);
+  @include transition-normal(transform);
 
   .portfolio-card__link:hover &,
   .portfolio-card__link:focus {
