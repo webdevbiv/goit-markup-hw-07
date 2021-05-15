@@ -98,6 +98,7 @@
     fill: $icons-color-accent;
     @include transition-normal(fill);
   }
+
   .address-header__link:hover &,
   .address-header__link:focus & {
     fill: $icons-color-accent;
