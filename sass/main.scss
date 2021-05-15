@@ -1,7 +1,10 @@
 @import "./base/_reset.scss";
+
 @import "./utils/_variables.scss";
+
 @import "./abstracts/_mixins.scss";
 @import "./abstracts/_placeholders.scss";
+
 @import "./components/_body.scss";
 @import "./components/_button.scss";
 @import "./components/_header.scss";
@@ -12,5 +15,6 @@
 @import "./components/_clients.scss";
 @import "./components/_footer.scss";
 @import "./components/_modal.scss";
+
 @import "./components/_filter.scss";
 @import "./components/_portfolio.scss";
