@@ -518,6 +518,8 @@ body {
 }
 
 .features__title {
+  font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
