@@ -154,3 +154,7 @@ html {
   transition: opacity 500ms var(--btn-sh-function),
     visibility 500ms var(--btn-sh-function);
 }
+
+.white-space {
+  white-space: nowrap;
+}

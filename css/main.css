@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 *,
 ::after,
 ::before {
@@ -185,6 +186,10 @@ html {
   transition: opacity 500ms var(--btn-sh-function), visibility 500ms var(--btn-sh-function);
 }
 
+.white-space {
+  white-space: nowrap;
+}
+
 .features__list, .benefits__list, .team__list, .clients__list, .portfolio-card__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,24 +255,20 @@ body {
   color: #212121;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.white-space {
-  white-space: nowrap;
-}
-
 .dev-outr {
   border: 1px solid red;
 }
 
 .dev-outb {
   border: 1px solid blue;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
