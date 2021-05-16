@@ -71,7 +71,7 @@
 }
 
 .modal-form {
-  @extend %colum;
+  @extend %column;
 }
 
 .modal-form__container {
@@ -89,7 +89,7 @@
   justify-content: center;
 }
 
-.modal-form_input {
+.modal-form__input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
@@ -125,7 +125,7 @@
 }
 
 .modal-form-comment {
-  @extend %colum;
+  @extend %column;
 }
 
 .modal-form-comment__label {
